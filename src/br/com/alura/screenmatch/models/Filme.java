@@ -25,6 +25,6 @@ public class Filme extends Titulo implements Classificacao {
 
     @Override
     public String toString() {
-        return "filme: " + this.getName() + "(" + this.getAnoDeLancamento() + ")";
+        return "Filme: " + this.getName() + "(" + this.getAnoDeLancamento() + ")";
     }
 }
